@@ -1,12 +1,17 @@
 * {
 	margin: 0;
-	padding: 0;
+	padding: 0;	
+}
+
+body {
+	background-color: #F5F5F5;
 }
 
 #navbar {
+	z-index: 2000;
 	width: 100%;
 	height: 50px;
-	background-color: rgba(50,50,50,.8);
+	background-color: rgba(20,20,20,.8);
 	margin-top: 0px;
 	position: fixed;
 	color: white;
@@ -30,7 +35,7 @@
 a {
 	text-decoration: none;
 	color: white;
-	font-family: Lato, sans-serif;
+	font-family: Overlock, sans-serif;
 	font-size: 20px;
 }
 
@@ -60,25 +65,27 @@ a:visited {
 }
 
 #about{
-	display: inline-block;
-	height: 105vh;
+	height: 100vh;
 }
 
 #Selfie img {
-	height: 70vh;
-	width: 70vh;
-	margin-top:15%;
-	margin-left: 3%;
-	/*border: 1px solid black;*/
+	height: 60vh;
+	width: 60vh;
+	margin-top:20vh;
+	margin-left: 10vh;
+	clear:none;
 }
 
 #text {
-	font-family: Lato, sans-serif;
-	margin-left: 10vh;
-	position: relative;
-	left: 70vh;
-	bottom: 71vh;
+	font-family: Overlock, sans-serif;
 	font-size: 20px;
+	width:90vh;
+	position: relative;
+	left: 80vh;
+	bottom: 60vh;
+}
+
+#text h1 {
 }
 
 #text p {
@@ -86,8 +93,26 @@ a:visited {
 	margin-top: 40px;
 }
 
-#three {
-	display: none;
+#resume {
+	background-color: #BBDEFB;
+	height: 30vh;
+	text-align: center;
+}
+
+#resume a {
+	font-family: Lato, sans-serif;
+	font-size: 30px;
+	border-radius: 10px;
+	display: block;
+	margin-top: 57px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10vh;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 200px;
+	padding-right: 220px;
+	background-color: black;
 }
 
 #four {
