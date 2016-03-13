@@ -351,3 +351,10 @@ a:visited {
 	 }
     
 }
+
+@media only screen and (max-width : 220px) {
+	#selfie {
+		height: 300px;
+		width: 300px;
+	}
+}
