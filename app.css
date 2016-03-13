@@ -319,13 +319,13 @@ a:visited {
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
 	#landingpage {
-		position: fixed; 
-  		top: 0; 
-  		left: 0; 
+		background-size: cover;
+    	background-attachment: fixed;
+    	background-position: center center;
 
-  		/* Preserve aspet ratio */
-  		min-width: 100%;
-  		min-height: 100%;
+    	@media (max-width: @iphone-screen) {
+        	background-attachment: scroll;
+    	}
 	}
 
 	#about {
