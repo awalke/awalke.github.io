@@ -318,25 +318,25 @@ a:visited {
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
-	
+
+	#links {
+		text-align: left;
+	}
+
 	#links a {
 		padding-right: 0px;
 	}
 
-	#aboutlink {
-		text-align: left;
+	#resumelink {
+		padding-left: 20px;
 	}
 
 	#resumelink {
-		text-align: center;
-	}
-
-	#resumelink {
-		text-align: right;
+		padding-left: 20px;
 	}
 
 	#landingpage {
-		background-size: contain;
+		background-size: 320px 800px;
 	}
 
 	#landingpage h1 {
