@@ -327,7 +327,7 @@ a:visited {
 	}
 
 	#landingpage {
-		background-size: 320px;
+		background-size: contain;
 	}
 
 	#landingpage h1 {
@@ -344,7 +344,6 @@ a:visited {
 	}
 
 	#selfie {
-		margin-top: 50px;
 		width: 300px;
 		height: 300px;
 	}
