@@ -319,12 +319,13 @@ a:visited {
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
 
+	#about {
+		height: 700px;
+		text-align: center;
+	}
 	#text {
 		margin-top: 40px;
-		text-align: center;
-		border: 1px solid red;
 	}
-
 	#text h1{
 		text-align: center;
 	}
@@ -336,6 +337,7 @@ a:visited {
 	 }
 
 	 #resume {
+	 	margin-top: 400px;
 	 	height:180px;
 	 }
 
@@ -345,36 +347,7 @@ a:visited {
 	 	padding-right: 100px;
 	 	padding-top: 20px;
 	 	padding-bottom: 20px;
-	 	margin-top: 400px;
+	 	margin-top: 55px;
 	 }
     
-}
-
-@media only screen and (max-width: 240px) {
-	#text {
-		margin-top: 40px;
-		border: 1px solid red;
-	}
-
-	#text h1{
-		text-align: center;
-	}
-
-	 #text p {
-	 	margin-left: auto;
-	 	margin-right: auto;
-	 	margin-top: 30px;
-	 }
-
-	 #resume {
-	 	height:180px;
-	 }
-
-	 #resume a {
-	 	font-size: 25px;
-	 	padding-left: 75px;
-	 	padding-right: 100px;
-	 	padding-top: 20px;
-	 	padding-bottom: 20px;
-	 }
 }
