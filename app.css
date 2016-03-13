@@ -318,8 +318,13 @@ a:visited {
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
+	#links {
+		text-align: center;
+	}
+
 	#landingpage {
-		
+		background-size: 320px 320px;
+		}
 	}
 
 	#about {
