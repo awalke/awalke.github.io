@@ -152,45 +152,6 @@ a:visited {
 
 /*==========  Non-Mobile First Method  ==========*/
 
-@media only screen and (max-width: 1400px) {
-	#selfie {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		float: none;
-	}
-
-	#text {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 40px;
-		float: none;
-		width: 100%;
-	}
-
-	#text h1 {
-		text-align: center;
-	}
-
-	#text p {
-		text-align: center;
-	}
-
-	#resume {
-		margin-top: 400px;
-		height: 240px;
-	}
-
-	#resume a {
-		padding-left: 150px;
-		padding-right: 180px;
-		padding-top: 20px;
-		padding-bottom: 20px;
-		margin-top: 80px;
-	}
-}
-
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	#selfie {
@@ -361,4 +322,32 @@ a:visited {
 	 	padding-bottom: 20px;
 	 }
     
+}
+
+@media only screen and (max-width: 240px) {
+	#text {
+		margin-top: 40px;
+	}
+
+	#text h1{
+		text-align: center;
+	}
+
+	 #text p {
+	 	margin-left: auto;
+	 	margin-right: auto;
+	 	margin-top: 30px;
+	 }
+
+	 #resume {
+	 	height:180px;
+	 }
+
+	 #resume a {
+	 	font-size: 25px;
+	 	padding-left: 75px;
+	 	padding-right: 100px;
+	 	padding-top: 20px;
+	 	padding-bottom: 20px;
+	 }
 }
