@@ -328,15 +328,16 @@ a:visited {
 	}
 
 	#resumelink {
-		padding-left: 20px;
+		padding-left: 100px;
 	}
 
-	#resumelink {
-		padding-left: 20px;
+	#contactlink {
+		padding-left: 100px;
 	}
 
 	#landingpage {
-		background-size: 320px 800px;
+		background-size: 320px 500px;
+		height: 500px;
 	}
 
 	#landingpage h1 {
