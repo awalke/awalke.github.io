@@ -327,12 +327,16 @@ a:visited {
 		padding-right: 0px;
 	}
 
+	#aboutlink {
+		padding-left: 10px;
+	}
+
 	#resumelink {
-		padding-left: 30px;
+		padding-left: 50px;
 	}
 
 	#contactlink {
-		padding-left: 30px;
+		padding-left: 50px;
 	}
 
 	#landingpage {
@@ -341,6 +345,10 @@ a:visited {
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		height: 100vh;
+	}
+
+	#landingpage h1 {
+		margin-top: 50px;
 	}
 
 	#about {
