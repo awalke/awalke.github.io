@@ -323,6 +323,11 @@ a:visited {
 		height: 700px;
 		text-align: center;
 	}
+
+	#selfie {
+		border: 2px solid blue;
+	}
+
 	#text {
 		margin-top: 40px;
 	}
@@ -356,5 +361,9 @@ a:visited {
 	#selfie {
 		height: 300px;
 		width: 300px;
+	}
+
+	#text {
+		border: 1px solid red;
 	}
 }
