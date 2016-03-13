@@ -322,8 +322,12 @@ a:visited {
 		text-align: center;
 	}
 
+	#links a {
+		padding-right: 0px;
+	}
+
 	#landingpage {
-		background-size: 320px 320px;
+		background-size: 320px 500px;
 		}
 	}
 
