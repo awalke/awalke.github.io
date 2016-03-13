@@ -328,11 +328,11 @@ a:visited {
 	}
 
 	#resumelink {
-		padding-left: 100px;
+		padding-left: 30px;
 	}
 
 	#contactlink {
-		padding-left: 100px;
+		padding-left: 30px;
 	}
 
 	#landingpage {
@@ -341,14 +341,6 @@ a:visited {
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		height: 100vh;
-	}
-
-	#landingpage h1 {
-		text-align: center;
-		margin-top: 150px;
-		color: white;
-		font-family: Lato, sans-serif;
-		font-size: 30px;
 	}
 
 	#about {
