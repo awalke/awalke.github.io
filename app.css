@@ -367,6 +367,12 @@ a:visited {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
+	#landingpage {
+		background-image: url("Media/river-center.jpeg");
+		background-repeat: no-repeat;
+		background-attachment: initial;
+	}
+	
 	#about {
 		height: 700px;
 		text-align: center;
