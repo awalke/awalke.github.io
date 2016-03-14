@@ -330,6 +330,12 @@ a:visited {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	#landingpage {
+		background-image: url("Media/river-center.jpeg");
+		background-repeat: no-repeat;
+		background-attachment: initial;
+	}
+	
 	#selfie {
 		/* center the image */
 		display: block;
@@ -372,7 +378,7 @@ a:visited {
 		background-repeat: no-repeat;
 		background-attachment: initial;
 	}
-	
+
 	#about {
 		height: 700px;
 		text-align: center;
