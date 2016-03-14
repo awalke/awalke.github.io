@@ -5,6 +5,7 @@
 
 body {
 	background-color: #F5F5F5;
+	width: 100%;
 }
 
 #navbar {
@@ -46,11 +47,12 @@ a:visited {
 
 .bigsection {
 	height: auto;
+	width: 100%;
 	border: 1px solid rgba(50,50,50,0);
 }
 
 #landingpage {
-	background-image: url("Media/ocean-ice-smaller.jpeg");
+	background-image: url("Media/river-cropped.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -61,7 +63,7 @@ a:visited {
 	text-align: center;
 	margin-top: 40vh;
 	color: white;
-	font-family: Lato, sans-serif;
+	font-family: Avenir, sans-serif;
 	font-size: 65px;
 }
 
@@ -81,10 +83,11 @@ a:visited {
 
 #text {
 	float: right;
-	font-family: Overlock, sans-serif;
+	font-family: Avenir, sans-serif;
 	font-size: 20px;
 	width: 900px;
 	margin-top: 170px;
+	margin-right: 20px;
 }
 
 #text h1 {
@@ -96,23 +99,23 @@ a:visited {
 }
 
 #resume {
-	background-color: #BBDEFB;
+	background-color: #262626;
 	height: 200px;
 	text-align: center;
 }
 
 #resume a {
-	font-family: Lato, sans-serif;
+	font-family: Avenir, sans-serif;
 	font-size: 30px;
 	border-radius: 10px;
 	display: block;
-	margin-top: 63px;
+	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 10vh;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding-left: 200px;
+	padding-left: 180px;
 	padding-right: 230px;
 	background-color: black;
 }
@@ -122,7 +125,7 @@ a:visited {
 }
 
 #contact a{
-	font-family: Lato, sans-serif;
+	font-family: Avenir, sans-serif;
 	font-size: 30px;
 	border-radius: 10px;
 	display: block;
@@ -136,6 +139,82 @@ a:visited {
 	padding-left: 200px;
 	padding-right: 230px;
 	background-color: black;
+}
+
+#information {
+	height: 4050px;
+	background-color: #262626;
+	color: white;
+	font-family: Avenir, sans-serif;
+	text-align: center;
+	margin-top: 200px;
+}
+
+#information h1 {
+	font-size: 60px;
+	font-style: italic;
+	margin-top: 150px;
+}
+
+#information p {
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+#date {
+	padding-left: 85px;
+}
+
+#gpa {
+	padding-left: 20px;
+}
+
+#arrow {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	margin-left: 48.8%;
+	margin-top: 50px;
+	border-top: 20px solid white;
+}
+
+#education {
+	height: 600px;
+	border: 1px solid #262626;
+	margin-top: 100px;
+}
+
+#work {
+	height: 600px;
+	border: 1px solid #262626;
+	font-weight: bold;
+}
+
+#work span {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#skills {
+	height: 600px;
+	border: 1px solid #262626;
+}
+
+#projects {
+	height: 600px;
+	border: 1px solid #262626;
+}
+
+#coursework {
+	height: 600px;
+	border: 1px solid #262626;
+}
+
+#notable {
+	height: 600px;
+	border: 1px solid #262626;
+	margin-top: 100px;
 }
 
 /*==========  Mobile First Method  ==========*/
@@ -314,6 +393,27 @@ a:visited {
 	 	padding-bottom: 20px;
 	 	margin-top: 55px;
 	 }
+
+	 #information {
+	 	margin-top: 500px;
+	 	height: 4150px;
+	 }
+
+	 #information p {
+	 	font-size: 15px;
+	 }
+
+	 #date {
+	 	padding-left: 72px;
+	 }
+
+	 #arrow {
+	 	margin-left: 45%;
+	 }
+
+	 #resume {
+	 	margin-top: 75px;
+	 }
 }
 
 /* Custom, iPhone Retina */ 
@@ -340,10 +440,9 @@ a:visited {
 	}
 
 	#landingpage {
-		background-image: url("Media/ocean-ice-mobile.jpeg");
-		background-size: contain;
+		background-image: url("Media/river-center.jpeg");
 		background-repeat: no-repeat;
-		background-attachment: fixed;
+		background-attachment: initial;
 	}
 
 	#landingpage h1 {
@@ -377,7 +476,7 @@ a:visited {
 	 }
 
 	 #resume {
-	 	margin-top: 400px;
+	 	margin-top: -200px;
 	 	height:180px;
 	 }
 
@@ -389,6 +488,14 @@ a:visited {
 	 	padding-bottom: 20px;
 	 	margin-top: 55px;
 	 	background-color: black;
+	 }
+
+	 #information {
+	 	height: 3800px;
+	 }
+
+	 #information h1 {
+	 	font-size: 35px;
 	 }
     
 }
