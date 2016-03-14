@@ -358,6 +358,10 @@ a:visited {
 
 	#about {
 		height: 1050px;
+	}
+
+	#information h1 {
+		font-size: 30px;
 	}	
 }
 
