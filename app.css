@@ -396,11 +396,15 @@ a:visited {
 
 	 #information {
 	 	margin-top: 500px;
-	 	height: 4150px;
+	 	height: 4000px;
 	 }
 
 	 #information p {
 	 	font-size: 15px;
+	 }
+
+	 #information h1 {
+	 	font-size: 30px;
 	 }
 
 	 #date {
@@ -412,7 +416,7 @@ a:visited {
 	 }
 
 	 #resume {
-	 	margin-top: 75px;
+	 	margin-top: 0px;
 	 }
 }
 
@@ -496,6 +500,7 @@ a:visited {
 
 	 #information h1 {
 	 	font-size: 35px;
+	 	margin-top: 
 	 }
     
 }
