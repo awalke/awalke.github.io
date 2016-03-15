@@ -290,7 +290,7 @@ a:visited {
 	}
 
 	#resume {
-		margin-top: 100px;
+		margin-top: 0px;
 		height: 200px;
 	}
 
@@ -299,7 +299,7 @@ a:visited {
 		padding-right: 180px;
 		padding-top: 20px;
 		padding-bottom: 20px;
-		margin-top: 60px;
+		margin-top: 0px;
 	}
 
 }
@@ -329,7 +329,7 @@ a:visited {
 	}
 
 	#resume {
-		margin-top: 75px;
+		margin-top: 0px;
 		height: 240px;
 	}
 
@@ -338,8 +338,16 @@ a:visited {
 		padding-right: 180px;
 		padding-top: 20px;
 		padding-bottom: 20px;
-		margin-top: 80px;
+		margin-top: 0px;
 	}
+
+	#arrow {
+	 	margin-left: 48%;
+	 }
+
+	 #arrow-up {
+	 	margin-left: 48%;
+	 }
 }
 
 /* Small Devices, Tablets */
@@ -383,6 +391,14 @@ a:visited {
 	#information h1 {
 		font-size: 30px;
 	}	
+
+	 #arrow {
+	 	margin-left: 47%;
+	 }
+
+	 #arrow-up {
+	 	margin-left: 47%;
+	 }
 }
 
 /* Extra Small Devices, Phones */ 
