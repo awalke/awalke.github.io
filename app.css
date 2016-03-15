@@ -556,6 +556,19 @@ a:visited {
 	 	font-size: 35px;
 	 }
 
+	 #information p {
+	 	margin-top: 10px;
+	 }
+
+	 #date {
+	 	display: block;
+	 	padding-left: 0px;
+	 }
+
+	 #gpa {
+	 	display: block;
+	 	padding-left: 0px;
+	 }
 	 #arrow-up {
 	 	margin-top: 60px;
 	 }
