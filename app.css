@@ -263,7 +263,7 @@ a:visited {
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1360px) {
+@media only screen and (max-width : 1400px) {
 	#selfie {
 		display: block;
 		margin-left: auto;
