@@ -208,6 +208,7 @@ button {
 
 #main-menu a:hover {
   background-color: rgba(0,0,0,.75);
+  color: white;
 }
 
 .menu-btn {
