@@ -207,7 +207,7 @@ button {
 }
 
 #main-menu a:hover {
-  background-color: rgba(0,0,0,.75);
+  background-color: transparent;
   color: white;
 }
 
