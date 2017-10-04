@@ -25,7 +25,7 @@ jQuery('document').ready(function($){
             window.location.hash = target;
         });
     });
-    
+
    // togle class "active"
    $('.toggle').on('click', function(){
       $('.toggle').toggleClass( "active" );

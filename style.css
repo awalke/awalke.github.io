@@ -1,5 +1,5 @@
 body {
-  background-image: url("media/river-cropped.jpeg");
+  background-image: url("media/utah4.jpg");
   background-attachment: fixed;
   background-size: cover;
   font-family: "Libre Franklin", sans-serif;
@@ -35,7 +35,7 @@ body {
 }
 
 #aboutMe {
-  background-color: #262626;
+  background-color: #606060;
   height: 100vh;
 }
 
@@ -49,6 +49,7 @@ a:visited{
 }
 
 a:hover {
+  color: white;
   text-decoration: underline;
 }
 
@@ -77,7 +78,7 @@ a:hover {
 
 #description {
   color: white;
-  margin-top: 13%;
+  margin-top: 15%;
   margin-left: 35%;
   margin-bottom: 2%;
 }
@@ -202,12 +203,12 @@ button {
 }
 
 #main-menu .menu {
-   margin-top: 40px;
+   margin-top: 20px;
    margin-left: 40px;
 }
 
 #main-menu a:hover {
-  background-color: transparent;
+  background-color: rgba(255,255,255,.5);
   color: white;
 }
 
@@ -258,71 +259,3 @@ button {
    width: 15px;
    top: 20px;
 }
-
- /*triple toggle*/
-
-/*.triple, .triple span {
-  position: absolute;
-  right: 0;
-   top:0;
-  width: 60px;
-  height: 60px;
-   border-radius: 50px;
-  font-size: 12px;
-  font-weight: bold;
-  background-color: #000;
-   text-shadow: 0 1px 0 rgba(0,0,0,.3);
-  text-align: center;
-   padding-top: 23px;
-   text-transform: uppercase;
-   cursor: pointer;
-   font-style: normal
-   }
-.toggle {
-   right: 20px;
-   top: 20px;
-   }
-.triple span{
-   z-index:2;
-   background-color: #ff6949;
-   box-shadow: 0 0 0 10px #ff6949;
-   }
-.triple.toggle.active span {
-   background-color: #111;
-   box-shadow: 0 0 0 0px #111;
-   }
-.triple.toggle [class*="item1"] {
-   transition-delay:.4s;
-}
-.triple.toggle [class*="item2"] {
-   transition-delay:.3s;
-}
-.triple.toggle [class*="item3"] {
-   transition-delay:.2s;
-}
-.triple.toggle.active .item1 {
-   right: 100px;
-   background-color: #6949aa;
-   transition-delay:.2s;
-   }
-.triple.toggle.active .item1:hover {
-   box-shadow: 0 0 0 6px #472788;
-   }
-.triple.toggle.active .item2 {
-   right: 70px;
-   top: 70px;
-   background-color: #49aa69;
-   transition-delay:.3s;
-   }
-.triple.toggle.active .item2:hover {
-   border-radius: 0 20px 0 20px;
-   }
-.triple.toggle.active .item3 {
-   top: 100px;
-   background-color: #dd4969;
-   transform: rotate(0deg);
-   transition-delay:.4s;
-   }
-.triple.toggle.active .item3:hover {
-   transform: rotate(-45deg);
-   }*/
