@@ -1,0 +1,97 @@
+body {
+	background-color: white;
+	font-family: "Belligerent", Arial;
+}
+
+@font-face {
+    font-family: "Belligerent";
+    src: url(belligerent.ttf) format("truetype");
+}
+
+#levels {
+	text-align: center;
+}
+
+#easy, #medium, #hard {
+	width: 25%;
+	height: 40px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 25px;
+	font-family: "Belligerent", Arial;
+	font-weight: lighter;
+	font-size: 60px;
+}
+
+h2 {
+	text-align: center;
+	font-weight: lighter;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+table {
+	width: 400px;
+	text-align: center;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: transparent;
+	margin-top: -10px;
+}
+
+table, tr, td {
+    border: 0px;
+    border-radius: 20px;
+    height: 40px;
+}
+
+td {
+	background-color: grey;
+	color: transparent;
+	font-size: 18px;
+	width: 10px;
+}
+
+td:hover {
+	background-color: #00bfff;
+}
+
+button {
+	background-color: #00bfff;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	font-size: 30px;
+	outline: none;
+	font-weight: lighter;
+	font-family: "Belligerent", Arial;
+}
+
+button:hover {
+	background-color: #383838;
+}
+
+#button {
+	text-align: center;
+	margin-top: 0px;
+}
+
+#gameOver {
+	margin-top: -5px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+#startOver {
+	margin-top: -5px;
+	text-align: center;
+	padding: 7px 40px 7px 40px;
+	font-weight: lighter;
+}
