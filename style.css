@@ -35,7 +35,7 @@ body {
 }
 
 #aboutMe {
-  background-color: #606060;
+  background-color: rgba(0,0,0,.7);
   height: 100vh;
 }
 
@@ -78,20 +78,16 @@ a:hover {
 
 #description {
   color: white;
-  margin-top: 15%;
-  margin-left: 35%;
+  margin-top: 13%;
+  margin-left: 30%;
   margin-bottom: 2%;
 }
 
 .pg {
   color: white;
   margin-bottom: 2%;
+  font-size:18px;
 }
-
-/*#description h1 {
-  text-align: center;
-  margin-left: 20vh;
-}*/
 
 #resume {
   height: 20vh;
@@ -111,7 +107,7 @@ a:hover {
 
 #portfolio {
   height: 100vh;
-  background-color: #a6a6a6;
+  background-color: rgba(0,0,0,.8);
 }
 
 #portfolio h1 {
@@ -120,51 +116,28 @@ a:hover {
   margin-top: 2%;
 }
 
-#smartbeats {
+#project1 {
+  border: 2px solid white;
+  height: 25vh;
   width: 60%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3%;
-  height: 30vh;
-  background-image: url("media/smartbeats.jpg");
-  background-size: cover;
-  background-position: center;
-  border-radius: 5px;
-}
-
-#smartbeats:hover {
-  background-color: rgba(0, 0, 0, .75);
-  background-image: none;
-}
-
-#smartbeats p{
-  font-size: 22px;
-  padding-top: 7%;
-  height: 30vh;
-  color: transparent;
-}
-
-#smartbeats p:hover {
-  color: white;
-}
-
-#ukemaster {
-  width: 60%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20%;
   margin-top: 1%;
-  height: 30vh;
-  background-image: url("media/ukemaster.jpg");
-  background-size: cover;
-  background-position: center;
-  border-radius: 5px;
 }
 
-#ukemaster:hover {
-  background-color: rgba(0, 0, 0, .75);
-  background-image: none;
+#project2 {
+  border: 2px solid white;
+  height: 25vh;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 1%;
+}
+
+#project3 {
+  border: 2px solid white;
+  height: 25vh;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 1%;
 }
 
 button {
