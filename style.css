@@ -2,7 +2,7 @@ body {
   background-image: url("media/utah4.jpg");
   background-attachment: fixed;
   background-size: cover;
-  font-family: "Libre Franklin", sans-serif;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
   overflow-x: hidden;
 }
 
@@ -23,8 +23,6 @@ body {
 
 #social {
   font-size: 18px;
-  font-color: white;
-  text-align: center;
 }
 
 #social img {
@@ -32,6 +30,10 @@ body {
   height: 20px;
   width: 20px;
   text-align: center;
+}
+
+#social a {
+  /*margin-left: -2%;*/
 }
 
 #aboutMe {
