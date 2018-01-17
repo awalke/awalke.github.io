@@ -1,291 +1,302 @@
-body {
-  background-image: url("media/utah4.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-  overflow-x: hidden;
+html, body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    font-family: Arial, sans-serif;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
-#landingPage {
-  color: white;
-  height: 100vh;
+h1, h4 {
   text-align: center;
 }
 
-#landingPage h1 {
-  margin-top: 30vh;
-  font-size: 75px;
+h1 {
+  margin-top: 15vh;
 }
 
-#social {
-  font-size: 18px;
-}
-
-#social img {
-  margin-top: -8px;
-  height: 20px;
-  width: 20px;
+.title {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
   text-align: center;
+  padding-top: 20vh;
+  transition: all 1s;
 }
 
-#social a {
-  /*margin-left: -2%;*/
+.title.wordChange {
+  color: transparent;
 }
 
-#aboutMe {
-  background-color: rgba(0,0,0,.7);
-  height: 100vh;
+.name {
+  height: 50vh;
+  width: 50vw;
+  float: left;
+  background-image: url(media/me.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: background 1s
 }
 
-a {
-  text-decoration: none;
-  color: white;
+.about {
+  height: 50vh;
+  width: 50vw;
+  float: right;
+  background-image: url(media/koda.jpg);
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: background 1s
 }
 
-a:visited{
-  color: white;
+.projects {
+  height: 50vh;
+  width: 50vw;
+  float: right;
+  background-image: url(media/deer.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: background 1s;
 }
 
-a:hover {
-  color: white;
-  text-decoration: underline;
+.resume {
+  height: 50vh;
+  width: 50vw;
+  float: left;
+  background-image: url(media/finn.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: background 2s;
 }
 
-#email:hover {
-  color: white;
-}
-
-#email:visited {
-  color: white;
-  text-decoration: none;
-}
-
-#hackathon {
-  width: 25%;
-  margin-left: 39%;
-}
-
-#aboutMe img {
-  width: 90%;
-  border-radius: 5px;
-  margin-top: 5%;
-  margin-bottom: 10%;
-}
-
-#description {
-  color: white;
-  margin-top: 5%;
-  text-align: center;
-}
-
-.pg {
-  color: white;
-  text-align: center;
-  font-size:18px;
-  margin-bottom: 1%;
-}
-
-#resume {
-  height: 20vh;
-  text-align: center;
-}
-
-#resume button:hover {
-  border: 2px solid grey;
-  color: grey;
-}
-
-#resume button {
-  margin-top: 6vh;
-  background-color: transparent;
-  color: white;
-  border: 2px solid white;
-  border-radius: 5px;
-  font-size: 30px;
-  padding-left: 75px;
-  padding-right: 75px;
-}
-
-#portfolio {
-  background-color: rgba(0,0,0,.8);
-}
-
-#content h1 {
-  text-align: center;
-  margin-top: 5%;
-}
-
-#portfolioTitle {
-  color: white;
-  text-align: center;
-  margin-top: 3%;
-}
-
-#project1 {
-  height: 25vh;
-  width: 90%;
-  margin-top: -3%;
-  margin-left: 5%;
-}
-
-#box1 {
-  border-radius: 10px;
-  height: 25vh;
-  width: 100%;
-  background-image: url("media/utah4.jpg");
-  background-attachment: fixed;
-  background-size: 100%
+.about:hover, .name:hover, .projects:hover, .resume:hover {
+  background-size: 110%;
 }
 
 .innerBox {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.3);
+  transition: all 1s;
 }
 
 .innerBox:hover {
   background-color: transparent;
 }
 
-.innerBox h1 {
-  padding-top: 6%;
+.innerBox.bgChange {
+  background-color: rgba(0,0,0,.9);
+}
+
+.link {
+  text-decoration: none;
+  visibility: hidden;
+  color: transparent;
+  font-size: 40px;
+  text-align: center;
+  transition: all 1s;
+}
+
+.info {
+  color: transparent;
+  visibility: hidden;
+  text-align: center;
+  margin-top: -17vh;
+  transition: all 1s;
+}
+
+.info.visible {
+  margin-top: -15vh;
+}
+
+.link.visible {
+  visibility: visible;
   color: white;
+  transition: all .5s;
 }
 
-#project2 {
-  height: 25vh;
-  width: 90%;
-  margin-top: -2%;
-  margin-left: 5%;
+.link.visible:hover {
+  font-size: 50px;
 }
 
-#box2 {
-  border-radius: 10px;
-  height: 25vh;
-  width: 100%;
-  background-image: url("media/utah4.jpg");
-  background-attachment: fixed;
-  background-size: 100%;
+.projLink {
+  text-decoration: none;
+  visibility: hidden;
+  color: transparent;
+  font-size: 40px;
+  text-align: center;
+  transition: all 1s;
 }
 
-/*#box2:hover {
-  background-image: none;
-}*/
-
-#project3 {
-  height: 30vh;
-  width: 90%;
-  margin-top: -2%;
-  margin-left: 5%;
-}
-
-#box3 {
-  border-radius: 10px;
-  height: 25vh;
-  width: 100%;
-  background-image: url("media/utah4.jpg");
-  background-attachment: fixed;
-  background-size: 100%;
-}
-
-/*#box3:hover {
-  background-image: none;
-}*/
-
-button {
-  outline: none;
-}
-
-/*MENU*/
-/*mass transition*/
-
-.wrap, #main-menu, .menu-btn-line, #footer, .transition {
-   -webkit-transition: .8s;
-   -moz-transition: .8s;
-   -ms-transition: .8s;
-   -o-transition: .8s;
-   transition: .8s;
-   }
-/*--menu-togggle*/
-#main-menu li {
-   display: block;
-   }
-#main-menu {
-   z-index: 2;
-   position: fixed;
-   left: -400px;
-   width: 400px;
-   top: 0;
-   bottom: 0;
-   margin: 0;
-   /*background-color: rgba(0,0,0,.75);*/
-   border: none;
-   border-radius: 0;
-}
-#main-menu.opened {
-   left: 0;
-   width: 200px;
-}
-
-#main-menu .menu {
-   margin-top: 20px;
-   margin-left: 40px;
-}
-
-#main-menu a:hover {
-  background-color: rgba(255,255,255,.5);
+.projLink.visible {
+  text-decoration: none;
+  visibility: visible;
   color: white;
+  transition: all .5s;
 }
 
-.menu-btn {
-   height: 35px;
-   width: 30px;
-   padding: 0 5px;
-   position: absolute;
-   right: -40px;
-   top: 0;
-   cursor: pointer;
-   z-index: 3;
-   margin-top: 20px;
+.projLink.visible:hover {
+  font-size: 50px;
 }
 
-.menu-btn-line {
-   height: 3px;
-   background-color: rgba(255,255,255,.75);
-   position: absolute;
+.aboutInfo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  color: transparent;
+  visibility: hidden;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -11vh;
+  transition: all 1s;
 }
-.menu-btn-line-1 {
-   transform: rotate(0deg);
-   width: 30px;
-   top: 5px;
+
+.aboutInfo.visible {
+  visibility: visible;
+  color: white;
+  margin-top: -9vh;
 }
-.menu-btn-line-2 {
-   top: 15px;
-   width: 30px;
-   left: 5px;
+
+.webLink {
+  margin-bottom: 2vh;
 }
-.menu-btn-line-3 {
-   transform: rotate(0deg);
-   width: 30px;
-   top: 25px;
+
+.projectsInfo {
+  color: transparent;
+  visibility: hidden;
+  text-align: center;
+  margin-top: -18vh;
+  transition: all 1s;
 }
-.opened-menu .menu-btn-line-1 {
-   transform: rotate(-45deg);
-   width: 15px;
-   top: 11px;
+
+.projectsInfo.visible {
+  margin-top: -16vh;
+  /* visibility: visible;
+  color: white; */
 }
-.opened-menu .menu-btn-line-2 {
-   top: 15px;
-   width: 0px;
-   left: 9px;
+
+@media (max-width: 1130px) {
+  .projects {
+    background-size: 150%;
+  }
+  .projects:hover {
+    background-size: 160%;
+  }
 }
-.opened-menu .menu-btn-line-3 {
-   transform: rotate(45deg);
-   width: 15px;
-   top: 20px;
+
+@media (max-width: 835px) {
+  .name {
+    background-size: 150%;
+  }
+  .name:hover {
+    background-size: 160%;
+  }
+
+  .projects {
+    background-size: 175%;
+  }
+  .projects:hover {
+    background-size: 185%;
+  }
+}
+
+@media (max-width: 680px) {
+  .name {
+    background-size: 200%;
+  }
+  .name:hover {
+    background-size: 210%;
+  }
+
+  .projects {
+    background-size: 250%;
+  }
+  .projects:hover {
+    background-size: 260%;
+  }
+
+  .about {
+    background-size: 200%;
+  }
+
+  .about:hover {
+    background-size: 210%;
+  }
+
+  .resume {
+    background-size: 200%;
+  }
+
+  .resume:hover {
+    background-size: 210%;
+  }
+}
+
+@media (max-width: 455px) {
+  .name {
+    background-size: 250%;
+  }
+
+  .name:hover {
+    background-size: 260%;
+  }
+
+  .about {
+    background-size: 250%;
+  }
+
+  .about:hover {
+    background-size: 260%;
+  }
+
+  .resume {
+    background-size: 250%;
+  }
+
+  .resume:hover {
+    background-size: 260%;
+  }
+
+  .projects {
+    background-size: 320%;
+  }
+
+  .projects:hover {
+    background-size: 330%;
+  }
+}
+
+@media (max-width: 350px) {
+  .name {
+    background-size: 300%;
+  }
+
+  .name:hover {
+    background-size: 310%;
+  }
+
+  .about {
+    background-size: 300%;
+  }
+
+  .about:hover {
+    background-size: 310%;
+  }
+
+  .resume {
+    background-size: 300%;
+  }
+
+  .resume:hover {
+    background-size: 310%;
+  }
+
+  .projects {
+    background-size: 400%;
+  }
+
+  .projects:hover {
+    background-size: 410%;
+  }
 }

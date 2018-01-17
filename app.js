@@ -1,33 +1,32 @@
-// YOU NEED JQUERY SCRIPT IN YOUR PROJECT
-jQuery('document').ready(function($){
+function onResumeClick() {
+  window.location='media/Allison_Walke_Resume.pdf';
+}
 
-    //mobile menu toggle
-    $('.menu-btn').on('click', function(){
-        if($(this).parents('.wrap').is('.opened-menu') !== true) {
-            $('.wrap').addClass('opened-menu');
-            $('#main-menu').addClass('opened');
-
-        }
-        else if($(this).parents('.wrap').is('.opened-menu') === true){
-            $('.wrap').removeClass('opened-menu');
-            $('#main-menu').removeClass('opened');
-
-        }
-    });
-
-    $('a[href^="#"]').on('click', function(e) {
-        e.preventDefault();
-        var target = this.hash;
-        var $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 900, 'swing', function() {
-            window.location.hash = target;
-        });
-    });
-
-   // togle class "active"
-   $('.toggle').on('click', function(){
-      $('.toggle').toggleClass( "active" );
-      });
+function onNameClick() {
+  $(document).ready(function(){
+      $("#innerName").toggleClass("bgChange");
+      $("#nameTitle").toggleClass("wordChange");
+      $(".info").toggleClass("visible");
+      $(".link").toggleClass("visible");
+      // setTimeout(function () {
+      //   $(".info").toggleClass("visible");
+      // }, 1000);
   });
+}
+
+function onAboutClick() {
+  $(document).ready(function(){
+      $("#innerAbout").toggleClass("bgChange");
+      $("#aboutTitle").toggleClass("wordChange");
+      $(".aboutInfo").toggleClass("visible");
+  });
+}
+
+function onProjectsClick() {
+  $(document).ready(function(){
+      $("#innerProjects").toggleClass("bgChange");
+      $("#projectsTitle").toggleClass("wordChange");
+      $(".projectsInfo").toggleClass("visible");
+      $(".projLink").toggleClass("visible");
+  });
+}

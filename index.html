@@ -1,120 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Allison Walke</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins|Hind|Josefin+Sans|Libre+Franklin" rel="stylesheet">
-  <script src="app.js"></script>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js"></script>
+  </head>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-97193893-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-
-</head>
-<body>
-
-<!-- NAVBAR -->
-
-<div class="wrap">
-   <!--MENU-->
-   <nav id="main-menu">
-      <div class="menu-btn">
-         <div class="menu-btn-line menu-btn-line-1"></div>
-         <div class="menu-btn-line menu-btn-line-2"></div>
-         <div class="menu-btn-line menu-btn-line-3"></div>
-      </div>
-      <div class="moduletable_menu">
-
-         <ul class="nav menu">
-            <!-- <li><a href="#landingPage">Main</a></li> -->
-            <li><a href="#aboutMe">About Me</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-         </ul>
-      </div>
-   </nav>
-   <!-- END menu -->
-
-</div>
-
-
-<!-- END NAVBAR -->
-
-<div class="col-xs-12" id="landingPage">
-  <h1>Allison Walke</h1>
-  <div id="social" class="col-xs-12">
-      <span class="col-xs-3"></span>
-      <span id="github" class="col-xs-2">
-        <img src="media/github_icon.png">
-        <a href="https://github.com/awalke"> Github </a>
-      </span>
-      <span id="email" class="col-xs-2">
-        <span class="glyphicon glyphicon-envelope"></span>
-        <a href="mailto:awalke796@gmail.com" id="email">Email </a>
-      </span>
-      <span id="devpost" class="col-xs-2"><img src="media/devpost_icon.png"> <a href="https://devpost.com/awalke">Devpost</a></span>
-      <span class="col-xs-3"></span>
-  </div>
-</div>
-
-<div class="col-xs-12" id="aboutMe">
-  <div id="description"><h1> About Me </h1></div>
-  <div id="hackathon"><img src="media/canyoneering.jpg"></div>
-  <div class="pg">I'm currently Computer Science student at Brigham Young University.</div>
-  <div class="pg">I started programming when I was a Senior in high school and I have loved it ever since.</div>
-  <div class="pg">Most of my work experience is in backend development, but I am also interested in mobile development.</div>
-  <div class="pg">When I'm not programming I love to rock climb, hike, and spend time in the mountains.</div>
-</div>
-
-<div class="col-xs-12" id="resume">
-  <a target="_blank" href="media/Allison-Walke-Resume.pdf"><button>Resume</button></a>
-</div>
-
-<div class="col-xs-12" id="portfolio">
-  <h1 id="portfolioTitle">Portfolio</h1>
-  <div id="content">
-    <div id="project1">
-      <div class=".box" id = "box1">
-        <a href="Minesweeper/index.html" style="text-decoration: none">
-        <div class="innerBox">
-          <h1>Minesweeper</h1>
+  <body>
+    <div class="name" onclick=onNameClick()>
+      <div class="innerBox" id="innerName">
+        <div class="title" id="nameTitle">
+          Allison Walke
         </div>
-        </a>
+        <div class="info">
+          <div class="webLink"><a href="http://www.github.com/awalke"  class="link">GitHub</a></div>
+          <br>
+          <div class="webLink"><a href="" class="link"> Email </a></div>
+          <br>
+          <div class="webLink"><a href="https://www.linkedin.com/in/allison-walke-572467133/" class="link"> LinkedIn </a></div>
+        </div>
       </div>
     </div>
-    <div id="project2">
-      <div class=".box" id = "box2">
-      <a href="https://devpost.com/software/smart-beats" style="text-decoration: none">
-        <div class="innerBox">
-          <h1>Smartbeats</h1>
-        </div>
-      </a>
-      </div>
-    </div>
-    <div id="project3">
-      <div class=".box" id = "box3">
-      <a href="https://devpost.com/software/ukemaster" style="text-decoration: none">
-        <div class="innerBox">
-          <h1>UkeMaster</h1>
-        </div>
-      </a>
-      </div>
-    </div>
-  </div>
-</div>
 
-</body>
+    <div class="about" onclick=onAboutClick()>
+        <div class="innerBox" id="innerAbout">
+          <div class="title" id="aboutTitle">
+            About
+          </div>
+          <div class="aboutInfo">
+            I'm currently Computer Science student at Brigham Young University.
+            I started programming when I was a Senior in high school and I have loved it ever since.
+            Most of my work experience is in backend development, but I am also interested in mobile development.
+            When I'm not programming I love to rock climb, hike, and spend time in the mountains.
+          </div>
+        </div>
+    </div>
+    <div class="resume" onclick=onResumeClick()>
+      <div class="innerBox" id="innerResume">
+        <div class="title">
+          Resume
+        </div>
+      </div>
+    </div>
+    <div class="projects" onclick=onProjectsClick()>
+      <div class="innerBox" id="innerProjects">
+        <div class="title" id="projectsTitle">
+          Projects
+        </div>
+        <div class="projectsInfo">
+          <div class="webLink"><a href="Minesweeper/index.html"  class="projLink">Minesweeper</a></div>
+          <br>
+          <div class="webLink"><a href="https://devpost.com/software/smart-beats" class="projLink"> SmartBeats </a></div>
+          <br>
+          <div class="webLink"><a href="https://devpost.com/software/ukemaster" class="projLink"> UkeMaster </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
