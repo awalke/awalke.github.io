@@ -176,127 +176,76 @@ h1 {
   color: white; */
 }
 
-@media (max-width: 1130px) {
+@media only screen
+and (max-device-width : 1024px)
+and (orientation: portrait) {
+  .name {
+    background-size: auto 100%;
+  }
+  .name:hover {
+    background-size: auto 110%;
+  }
   .projects {
-    background-size: 150%;
+    background-size: auto 100%;
   }
   .projects:hover {
-    background-size: 160%;
+    background-size: auto 110%;
+  }
+  .about {
+    background-size: auto 100%;
+  }
+  .about:hover {
+    background-size: auto 110%;
+  }
+
+  .resume {
+    background-size: auto 100%;
+  }
+  .resume:hover {
+    background-size: auto 110%;
+  }
+
+  .info.visible {
+    margin-top: -9vh;
+  }
+  .aboutInfo.visible   {
+    margin-top: -7vh;
+  }
+  .projectsInfo.visible {
+    margin-top: -9vh;
   }
 }
 
-@media (max-width: 835px) {
-  .name {
-    background-size: 150%;
-  }
-  .name:hover {
-    background-size: 160%;
-  }
-
+@media (max-width: 1130px) {
   .projects {
-    background-size: 175%;
+    background-size: auto 100%;
   }
   .projects:hover {
-    background-size: 185%;
+    background-size: auto 110%;
+  }
+}
+
+@media (max-width: 850px) {
+  .name {
+    background-size: auto 100%;
+  }
+  .name:hover {
+    background-size: auto 110%;
   }
 }
 
 @media (max-width: 680px) {
-  .name {
-    background-size: 200%;
-  }
-  .name:hover {
-    background-size: 210%;
-  }
-
-  .projects {
-    background-size: 250%;
-  }
-  .projects:hover {
-    background-size: 260%;
-  }
-
   .about {
-    background-size: 200%;
+    background-size: auto 100%;
   }
-
   .about:hover {
-    background-size: 210%;
+    background-size: auto 110%;
   }
 
   .resume {
-    background-size: 200%;
+    background-size: auto 100%;
   }
-
   .resume:hover {
-    background-size: 210%;
-  }
-}
-
-@media (max-width: 455px) {
-  .name {
-    background-size: 250%;
-  }
-
-  .name:hover {
-    background-size: 260%;
-  }
-
-  .about {
-    background-size: 250%;
-  }
-
-  .about:hover {
-    background-size: 260%;
-  }
-
-  .resume {
-    background-size: 250%;
-  }
-
-  .resume:hover {
-    background-size: 260%;
-  }
-
-  .projects {
-    background-size: 320%;
-  }
-
-  .projects:hover {
-    background-size: 330%;
-  }
-}
-
-@media (max-width: 350px) {
-  .name {
-    background-size: 300%;
-  }
-
-  .name:hover {
-    background-size: 310%;
-  }
-
-  .about {
-    background-size: 300%;
-  }
-
-  .about:hover {
-    background-size: 310%;
-  }
-
-  .resume {
-    background-size: 300%;
-  }
-
-  .resume:hover {
-    background-size: 310%;
-  }
-
-  .projects {
-    background-size: 400%;
-  }
-
-  .projects:hover {
-    background-size: 410%;
+    background-size: auto 110%;
   }
 }
