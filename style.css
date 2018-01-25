@@ -176,6 +176,74 @@ h1 {
   color: white; */
 }
 
+#nameInfo {
+  color: transparent;
+  visibility: hidden;
+  text-align: center;
+  margin-top: -23vh;
+  transition: all 1s;
+}
+
+#nameInfo.visible {
+  margin-top: -19vh;
+}
+
+.iconLink {
+  text-decoration: none;
+  visibility: hidden;
+  color: transparent;
+  font-size: 40px;
+  text-align: center;
+  transition: all 1s;
+}
+
+.iconLink.visible {
+  visibility: visible;
+  color: white;
+  transition: all .5s;
+}
+
+.iconLink.visible:hover {
+  /* font-size: 50px; */
+}
+
+.icon {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.icon.visible {
+  opacity: 1;
+}
+
+#githubIcon {
+  height: 10vh;
+  margin-bottom: 2vh;
+  transition: all 1s;
+}
+
+#emailIcon {
+  height: 5vh;
+  transition: all 1s;
+}
+
+#linkedinIcon {
+  height: 15vh;
+  transition: all 1s;
+}
+
+#githubIcon:hover {
+  height: 13vh;
+}
+
+#emailIcon:hover {
+  height: 7vh;
+}
+
+#linkedinIcon:hover {
+  height: 20vh;
+}
+
 @media only screen
 and (max-device-width : 1024px)
 and (orientation: portrait) {

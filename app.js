@@ -6,8 +6,9 @@ function onNameClick() {
   $(document).ready(function(){
       $("#innerName").toggleClass("bgChange");
       $("#nameTitle").toggleClass("wordChange");
-      $(".info").toggleClass("visible");
-      $(".link").toggleClass("visible");
+      $("#nameInfo").toggleClass("visible");
+      $(".iconLink").toggleClass("visible");
+      $(".icon").toggleClass("visible");
       // setTimeout(function () {
       //   $(".info").toggleClass("visible");
       // }, 1000);
