@@ -191,7 +191,7 @@ exit {
   grid-area: exit;
 }
 
-@media only screen and (min-width: 850px){
+@media only screen and (min-width: 400px){
   .landingPage {
     background-image: url("media/me-paint-small.png");
     background-size: cover;
@@ -289,7 +289,7 @@ exit {
   name h2 {
     font-size: 3vw;
     font-weight: lighter;
-    /* margin-top: -3vh; */
+    margin-top: -3vh;
   }
   subtitle {
     grid-area: subtitle;
@@ -323,7 +323,7 @@ exit {
   }
 }
 
-@media only screen and (min-width:1000px){
+@media only screen and (min-width:850px){
   .landingPage {
     background-image: url("media/me-paint-centered.png");
     background-size: cover;
