@@ -178,6 +178,9 @@ github {
 linkedin {
   grid-area: linkedin;
 }
+description {
+  grid-area: description;
+}
 smartbeats {
   grid-area: smartbeats;
 }
@@ -234,10 +237,10 @@ exit {
     ". . name name name . ."
     ". . name name name . ."
     ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
+    ". description description description description description ."
+    ". description description description description description ."
+    ". description description description description description ."
+    ". description description description description description ."
     ". . . . . . ."
     ". . . . . . ."
     ". about resume projects github linkedin ."
@@ -308,6 +311,11 @@ exit {
   }
   linkedin {
     grid-area: linkedin;
+  }
+  description {
+    grid-area: description;
+    font-size: 3vw;
+    text-align: center;
   }
   smartbeats {
     grid-area: smartbeats;
@@ -455,6 +463,7 @@ exit {
   }
   description {
     grid-area: description;
+    text-align: left;
   }
   smartbeats {
     grid-area: smartbeats;
