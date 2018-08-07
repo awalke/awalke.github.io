@@ -1,33 +1,75 @@
-function onResumeClick() {
-  window.location='media/Allison_Walke_Resume.pdf';
+$(document).ready(function (){
+  $("#name").hide();
+  $(".menu").hide();
+  $(".description").hide();
+  $(".projects").hide();
+
+  $("#about").click(function(){
+    aboutMeClick();
+  });
+
+  $("#projects").click(function(){
+    projectsClick();
+  });
+
+  $("#exit").click(function () {
+    exitClick();
+  });
+
+  setTimeout(function() {
+    $("#name").fadeIn(1000);
+    showAbout();
+  }, 500);
+});
+
+function projectsClick() {
+  $(".menu").fadeOut(500);
+  $(".projects").fadeIn(1000);
+  $(".projects").css("z-index", "2");
 }
 
-function onNameClick() {
-  $(document).ready(function(){
-      $("#innerName").toggleClass("bgChange");
-      $("#nameTitle").toggleClass("wordChange");
-      $("#nameInfo").toggleClass("visible");
-      $(".iconLink").toggleClass("visible");
-      $(".icon").toggleClass("visible");
-      // setTimeout(function () {
-      //   $(".info").toggleClass("visible");
-      // }, 1000);
-  });
+function exitClick() {
+  $(".menu").fadeIn(1000);
+  $(".projects").fadeOut(500);
+  $(".menu").css("z-index", "2");
 }
 
-function onAboutClick() {
-  $(document).ready(function(){
-      $("#innerAbout").toggleClass("bgChange");
-      $("#aboutTitle").toggleClass("wordChange");
-      $(".aboutInfo").toggleClass("visible");
-  });
+
+function aboutMeClick() {
+  // $(".landingPage").css("background-image", "url(media/koda-fine-bg.png)");
+  $(".description").fadeIn(1000);
 }
 
-function onProjectsClick() {
-  $(document).ready(function(){
-      $("#innerProjects").toggleClass("bgChange");
-      $("#projectsTitle").toggleClass("wordChange");
-      $(".projectsInfo").toggleClass("visible");
-      $(".projLink").toggleClass("visible");
-  });
+function showAbout() {
+  setTimeout(function() {
+    $("#about").fadeIn(1000);
+    showResume();
+  }, 1000);
+}
+
+function showResume() {
+  setTimeout(function() {
+    $("#resume").fadeIn(1000);
+    showProjects();
+  }, 300);
+}
+
+function showProjects() {
+  setTimeout(function() {
+    $("#projects").fadeIn(1000);
+    showGitHub();
+  }, 300);
+}
+
+function showGitHub() {
+  setTimeout(function() {
+    $("#github").fadeIn(1000);
+    showLinkedIn();
+  }, 300);
+}
+
+function showLinkedIn() {
+  setTimeout(function() {
+    $("#linkedin").fadeIn(1000);
+  }, 300);
 }

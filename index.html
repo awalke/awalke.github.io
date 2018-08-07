@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97193893-1"></script>
@@ -10,68 +10,41 @@
 
       gtag('config', 'UA-97193893-1');
     </script>
-
     <meta charset="utf-8">
     <title>Allison Walke</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="icon" href="media/koda-transparent.png">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="grid.js"></script>
   </head>
-
   <body>
-    <div class="name" onclick=onNameClick()>
-      <div class="innerBox" id="innerName">
-        <div class="title" id="nameTitle">
-          Allison Walke
+    <div class="landingPage">
+      <div class="container">
+        <div class="gridContainer">
+          <name id="name"><h1>Allison Walke</h1> <br> <h2>Software Engineer</h2> </name>
+          <about class="menu" id="about"><a href="#">About Me</a></about>
+          <resume class="menu" id="resume"><a href="media/Allison_Walke_Resume_Aug_2018.pdf" target="_blank">Resume</a></resume>
+          <projects class="menu" id="projects"><a href="#">Projects</a></projects>
+          <github class="menu" id="github"><a href="https://github.com/awalke" target="_blank">GitHub</a></github>
+          <linkedin class="menu" id="linkedin"><a href="https://www.linkedin.com/in/allison-walke-572467133/" target="_blank">LinkedIn</a></linkedin>
+          <description class="description">
+            <p>
+            Computer Science student at Brigham Young University graduating December 2018.
+            <br>
+            <br>
+            Experience with Java, C/C++, Python, HTML/CSS, Javascript.
+            <br>
+            <br>
+            Hobbies include: Rock Climbing, Hiking, Art, and just chilling with my dog.
+            </p>
+          </description>
         </div>
-        <div id="nameInfo">
-          <div class="iconDiv"><a href="http://www.github.com/awalke"  class="iconLink">
-            <img id="githubIcon" class="icon" src="media/github_icon.png" alt="">
-          </a></div>
-          <br>
-          <div class="iconDiv"><a href="mailto:allisonbwalke@gmail.com" class="iconLink">
-            <img id="emailIcon" class="icon" src="media/email_icon.png" alt="">
-          </a></div>
-          <br>
-          <div class="iconDiv"><a href="https://www.linkedin.com/in/allison-walke-572467133/" class="iconLink">
-            <img id="linkedinIcon" class="icon" src="media/linkedin_icon.png" alt="">
-          </a></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="about" onclick=onAboutClick()>
-        <div class="innerBox" id="innerAbout">
-          <div class="title" id="aboutTitle">
-            About
-          </div>
-          <div class="aboutInfo">
-            I'm currently Computer Science student at Brigham Young University.
-            I started programming when I was a Senior in high school and I have loved it ever since.
-            Most of my work experience is in backend development, but I am also interested in mobile development.
-            When I'm not programming I love to rock climb, hike, and spend time in the mountains.
-          </div>
-        </div>
-    </div>
-    <div class="resume" onclick=onResumeClick()>
-      <div class="innerBox" id="innerResume">
-        <div class="title">
-          Resume
-        </div>
-      </div>
-    </div>
-    <div class="projects" onclick=onProjectsClick()>
-      <div class="innerBox" id="innerProjects">
-        <div class="title" id="projectsTitle">
-          Projects
-        </div>
-        <div class="projectsInfo">
-          <div class="webLink"><a href="Minesweeper/index.html"  class="projLink">Minesweeper</a></div>
-          <br>
-          <div class="webLink"><a href="https://devpost.com/software/smart-beats" class="projLink"> SmartBeats </a></div>
-          <br>
-          <div class="webLink"><a href="https://devpost.com/software/ukemaster" class="projLink"> UkeMaster </a></div>
-          </div>
+        <div class="gridTop">
+          <smartbeats class="projects" id="smartbeats"><a href="https://devpost.com/software/smart-beats" target="_blank">Smartbeats</a></smartbeats>
+          <ukemaster class="projects" id="ukemaster"><a href="https://devpost.com/software/ukemaster" target="_blank">UkeMaster</a></ukemaster>
+          <minesweeper class="projects" id="minesweeper"><a href="Minesweeper/index.html" target="_blank">Minesweeper</a></minesweeper>
+          <exit class="projects" id="exit"><a href="#">Menu</a></exit>
         </div>
       </div>
     </div>
