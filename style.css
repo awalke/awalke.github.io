@@ -159,6 +159,7 @@ name h1 {
 name h2 {
   font-size: 5vw;
   font-weight: lighter;
+  margin-top: -3vh;
 }
 subtitle {
   grid-area: subtitle;
@@ -289,6 +290,7 @@ exit {
   name h2 {
     font-size: 2.5vw;
     font-weight: lighter;
+    margin-top: -3vh;
   }
   subtitle {
     grid-area: subtitle;
@@ -388,13 +390,13 @@ exit {
 
   .projects {
     text-align: right;
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin-top: 0%;
   }
 
   .menu {
     text-align: right;
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin-top: 0%;
   }
 
@@ -430,8 +432,9 @@ exit {
     font-weight: lighter;
   }
   name h2 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: lighter;
+    margin-top: -3vh;
   }
   subtitle {
     grid-area: subtitle;
