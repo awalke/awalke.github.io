@@ -26,12 +26,14 @@ function projectsClick() {
   $(".menu").fadeOut(500);
   $(".projects").fadeIn(1000);
   $(".projects").css("z-index", "2");
+  $(".menu").css("z-index", "1");
 }
 
 function exitClick() {
   $(".menu").fadeIn(1000);
   $(".projects").fadeOut(500);
   $(".menu").css("z-index", "2");
+  $(".projects").css("z-index", "1");
 }
 
 
