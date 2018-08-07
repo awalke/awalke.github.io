@@ -40,7 +40,6 @@ function exitClick() {
 function aboutMeClick() {
   // $(".landingPage").css("background-image", "url(media/koda-fine-bg.png)");
   if (window.matchMedia('screen and (min-width:400px)').matches && !window.matchMedia('screen and (min-width:1000px)').matches) {
-    alert("pass");
     $(".landingPage").css("background-image", "url(media/canvas.png)");
   }
   $(".description").fadeIn(1000);
