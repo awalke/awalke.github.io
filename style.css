@@ -192,7 +192,7 @@ exit {
   grid-area: exit;
 }
 
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 850px){
   .landingPage {
     background-image: url("media/me-paint-small.png");
     background-size: cover;
@@ -324,7 +324,7 @@ exit {
   }
 }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width:1000px){
   .landingPage {
     background-image: url("media/me-paint-centered.png");
     background-size: cover;
