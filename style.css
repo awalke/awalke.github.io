@@ -7,6 +7,7 @@
   background-image: url("media/me-paint-small.png");
   background-size: cover;
   background-position: center;
+  transition: background 0.5s linear;
 }
 
 .container {
@@ -336,7 +337,6 @@ exit {
     background-image: url("media/me-paint-centered.png");
     background-size: cover;
     background-position: center;
-    transition: background 0.5s linear;
   }
 
   .gridTop {
