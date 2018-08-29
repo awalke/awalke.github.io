@@ -74,6 +74,7 @@
   font-family: "Amatic SC"
 }
 .menu {
+  position: relative;
   text-align: center;
   font-size: 4vw;
 }
@@ -104,6 +105,7 @@
 }
 
 .projects {
+  position: relative;
   text-align: center;
   font-size: 5vw;
 }
