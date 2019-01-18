@@ -1,11 +1,16 @@
 $(document).ready(function() {
   $(".container-front").click(function () {
-    $('.content').css('transition', '1s');
-    $('.content').css('transform', 'rotateY( -180deg )');
+    $('.front-center').hide();
+    $('.square').hide();
+    $('.content').css('-webkit-transition', '1s');
+    $('.content').css('-webkit-transform', 'rotateY( -180deg )');
+
   });
 
   $(".back").click(function () {
-    $('.content').css('transition', '1s');
-    $('.content').css('transform', 'rotateY( 0deg )');
+    $('.front-center').show();
+    $('.square').show();
+    $('.content').css('-webkit-transition', '1s');
+    $('.content').css('-webkit-transform', 'rotateY( 0deg )');
   });
 });

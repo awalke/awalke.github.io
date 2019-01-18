@@ -34,11 +34,15 @@ body {
   height: 100%;
   box-shadow: 0px 15px 15px rgba(0,0,0,0.4);
 
+  -webkit-transition: transform 1s;
+  -webkit-transform-style: preserve-3d;
   transition: transform 1s;
   transform-style: preserve-3d;
 }
 
 .card:hover .content {
+  -webkit-transform: rotateY( -10deg ) ;
+  -webkit-transition: transform 0.5s;
   transform: rotateY( -10deg ) ;
   transition: transform 0.5s;
 }
@@ -52,6 +56,7 @@ body {
   color: #03446A;
   text-align: center;
   font-size: 60px;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -74,6 +79,7 @@ body {
   left: 50%;
   height: 50%;
   width: 50%;
+  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   border: solid white 2px;
@@ -85,6 +91,7 @@ body {
   top: 50%;
   left: 48%;
   opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
@@ -101,6 +108,7 @@ body {
 .back {
   background-color: #353535;
   color: white;
+  -webkit-transform: rotateY( 180deg );
   transform: rotateY( 180deg );
 }
 
@@ -162,6 +170,7 @@ img {
 }
 
 a {
+  color: white;
   text-decoration: none;
 }
 
@@ -179,6 +188,7 @@ a:visited {
   left: 50%;
   height: 50%;
   width: 50%;
+  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
