@@ -20,7 +20,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 75vh;
+  height: 40vw;
   width: 70vw;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
