@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #a0c8f4;
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+}
+
+#hero {
+  margin-top: 10vh;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#content {
+  /* margin-top: -5vh; */
+  background-color: #000000;
+  height: 100vh;
+}
+
+.layer {
+  /* background-position: bottom center; */
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+#hero-mobile {
+  display: none;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/full_illustration.png") no-repeat center bottom/cover;
+  height: 320px;
+}
+
+.first-section {
+  padding: 50px 0 20px 0;
+}
+
+.text-header {
+  font-size: 50px;
+  text-align: center;
+}
+
+#hero, .layer {
+  /* min-height: 800px; */
+}
+
+.layer-bg {
+  background-image: url("media/6.png");
+  /* background-position: bottom; */
+}
+
+.layer-1 {
+  background-image: url("media/5.png");
+  /* background-position: left bottom; */
+  background-position: bottom;
+}
+
+.layer-2 {
+  background-image: url("media/4.png");
+  background-position: bottom;
+}
+
+.layer-3 {
+  background-image: url("media/3.png");
+  /* background-position: right bottom; */
+  background-position: bottom;
+}
+
+.layer-4 {
+  background-image: url("media/2.png");
+  background-position: bottom;
+}
+
+.layer-5 {
+  background-image: url("media/1.png");
+  background-position: bottom left;
+  margin-left: 5vw;
+}
+
+/* .layer-overlay {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_overlay.png\a 		");
+} */
+/*
+@media only screen and (max-width: 768px) {
+  #hero {
+    display: none;
+  }
+
+  #hero-mobile {
+    display: block;
+  }
+}
+.tutorial-link {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.tutorial-link:hover {
+  color: #ede0d5;
+} */
