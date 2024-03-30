@@ -57,21 +57,23 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  padding-top: 5vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
 }
 
 .programmerDogs {
-  padding-right: 5vw;
-  padding-bottom: 10vh;
-}
-
-.programmerDogs img {
-  height: 450px;
-  opacity: 80%;
+  height: 400px;
+  width: 500px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("assets/ProgrammerDogs.png");
 }
 
 .aboutMeText {
-  padding-bottom: 5vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 3vh;
 }
 
 .cornerContainer {  
@@ -86,7 +88,7 @@
 }
 
 .description p {
-  width: 600px;
+  max-width: 700px;
   text-align: justify;
   line-height: 1.75;
   padding-top: 3vh;
