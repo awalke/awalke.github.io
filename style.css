@@ -93,7 +93,9 @@
   padding-bottom: 3vh;
   padding-right: 4vh;
   padding-left: 4vh;
-  font-size: 1.25em;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .resumeContainer {
@@ -112,6 +114,7 @@
 }
 
 .dates {
+  font-size: 18px;
   font-weight: 200;
   padding-right: 5vw;
   width: 15vw;
@@ -122,13 +125,14 @@
 }
 
 .jobTitle {
-  font-size: 20px;
-  font-weight: 350;
+  font-size: 22px;
   color: white;
 }
 
 .experience {
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.75;
 }
 
 .skillsContainer {
