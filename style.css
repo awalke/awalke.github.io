@@ -77,14 +77,19 @@
 }
 
 .cornerContainer {  
+  --corner-line-color: #627BA5;
+  --border-size: 2px;
+  --border-height: 20vh;
+  --border-width: 30vh;
+  
   background:
-    linear-gradient(to right, white 2px, transparent 2px) 0 0,
-    linear-gradient(to left, white 2px, transparent 2px) 100% 100%,
-    linear-gradient(to bottom, white 2px, transparent 2px) 0 0,
-    linear-gradient(to top, white 2px, transparent 2px) 100% 100%;
+    linear-gradient(to right, var(--corner-line-color) var(--border-size), transparent var(--border-size)) 0 0,
+    linear-gradient(to left, var(--corner-line-color) var(--border-size), transparent var(--border-size)) 100% 100%,
+    linear-gradient(to bottom, var(--corner-line-color) var(--border-size), transparent var(--border-size)) 0 0,
+    linear-gradient(to top, var(--corner-line-color) var(--border-size), transparent var(--border-size)) 100% 100%;
 
   background-repeat: no-repeat;
-  background-size: 175px 175px;
+  background-size: var(--border-width) var(--border-height);
 }
 
 .description p {
