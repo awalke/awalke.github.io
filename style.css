@@ -62,6 +62,7 @@
 }
 
 .programmerDogs {
+  transform: translate3d(0, 0, 0);
   height: 400px;
   width: 500px;
   background-position: center;
