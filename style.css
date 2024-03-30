@@ -81,7 +81,7 @@
   --border-size: 2px;
   --border-height: 20vh;
   --border-width: 30vh;
-  
+
   background:
     linear-gradient(to right, var(--corner-line-color) var(--border-size), transparent var(--border-size)) 0 0,
     linear-gradient(to left, var(--corner-line-color) var(--border-size), transparent var(--border-size)) 100% 100%,
@@ -93,7 +93,7 @@
 }
 
 .description p {
-  max-width: 700px;
+  max-width: 90vw;
   text-align: justify;
   line-height: 1.75;
   padding-top: 3vh;
