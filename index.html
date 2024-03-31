@@ -8,13 +8,31 @@
 </head>
 <body>
     <div class="homePage">
+        <div class="hamburgerIcon">
+            <img src="assets/HamburgerMenu.svg" alt="">
+        </div>
+        <div class="menuContainer">
+            <div class="hamburgerMenu hidden">
+                <div class="menuItem" id="homeItem">
+                    <div class="menuText">Home</div>
+                </div>
+                <div class="menuItem" id="aboutItem">
+                    <div class="menuText">About Me</div>
+                </div>
+                <div class="menuItem" id="experienceItem">
+                    <div class="menuText">Experience</div>
+                </div>
+                <div class="menuItem" id="contactItem">
+                    <div class="menuText">Contact</div>
+                </div>
+            </div>
+        </div>
         <div class="sectionContainer" id="nameSection">
             <div class="decorLine"></div>
             <div class="sectionTitle">ALLISON WALKE</div>
             <div class="decorLine"></div>
         </div>
         <div class="title">Software Engineer</div>
-        <div class="hamburgerMenu"></div>
     </div>
     <div class="separator"></div>
     <div class="aboutMeSection">
@@ -168,8 +186,10 @@
      <div class="contactContainer">
         <img src="assets/EmailIcon.svg" alt="email">
         <img src="assets/PhoneIcon.svg" alt="phone">
-        <img src="assets/LinkedIn.svg" alt=linkedin">
+        <img src="assets/LinkedIn.svg" alt="linkedin">
         <img src="assets/GithubIcon.svg" alt="github">
      </div>
+
+     <script src="app.js"></script>
 </body>
 </html>

@@ -8,8 +8,75 @@
 .homePage {
   background-image: url("assets/WebpageBackground.png");
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
+}
+
+.hamburgerIcon {
+  width: 100vw;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+}
+
+.hamburgerIcon img{
+  width: 40px;
+  padding-top: 1vh;
+  padding-right: 3vw;
+  opacity: 1;
+  transition: width 0.3s ease, opacity 0.5s ease;
+}
+
+.hamburgerIcon.hidden {
+  opacity: 0;
+}
+
+.hamburgerIcon img:hover{
+  width: 45px;
+}
+
+.menuContainer {
+  display: flex;
+  width: 100vw;
+  justify-content: right;
+}
+
+.hamburgerMenu {
+  background-color: rgba(0, 0, 0);
+  height: 100vh;
+  width: 200px;
+  position:fixed;
+  z-index: 1;
+  opacity: 0.85;
+  transition: opacity 0.5s ease;
+}
+
+.hamburgerMenu.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.menuItem {
+  display: flex;
+  justify-content: right;
+  padding-right: 3vw;
+  padding-top: 3vh;
+}
+
+.menuText {
+  opacity: 1;
+  color: white;
+  font-size: 20px;
+  width: fit-content;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s ease, transform 0.3s ease;;
+}
+
+.menuText:hover {
+  transform: scale(1.1);
+  border-color: white;
 }
 
 .sectionContainer {
@@ -119,6 +186,12 @@
   justify-content: center;
   font-style: italic;
   padding-top: 5vh;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.resumeEntryContainer:hover {
+  transform: scale(1.025);
 }
 
 .dates {
@@ -178,5 +251,6 @@
 .contactContainer img {
   height: 30px;
   padding-top: 3vh;
-  padding-right: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
