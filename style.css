@@ -26,7 +26,7 @@ html,body{
   --cloud-1-end: 100vw;
   --cloud-1-speed: 80s;
 
-  margin-top: 25vh;
+  margin-top: 30vh;
   animation: moveCloud1 var(--cloud-1-speed) linear infinite; /* Animation for moving the element */
 }
 
@@ -39,7 +39,7 @@ html,body{
   --cloud-2-end: 100vw;
   --cloud-2-speed: 150s;
 
-  margin-top: 0vh;
+  margin-top: 10vh;
   animation: moveCloud2 var(--cloud-2-speed) linear infinite; /* Animation for moving the element */
 }
 
@@ -52,7 +52,7 @@ html,body{
   --cloud-3-end: -30vw;
   --cloud-3-speed: 120s;
 
-  margin-top: 10vh;
+  margin-top: 15vh;
   animation: moveCloud3 var(--cloud-3-speed) linear infinite; /* Animation for moving the element */
 }
 
